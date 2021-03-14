@@ -1,0 +1,7 @@
+title = "Dude, you spelt `Rahul` wrong"
+category = "antipattern"
+severity = "critical"
+description = """
+Rahul is an amazing person. Spell his name RIGHT!
+"""
+recommended = true
