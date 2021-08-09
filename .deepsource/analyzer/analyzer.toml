@@ -5,9 +5,6 @@ category = "lang"
 analyzer_type = "community"
 status = "active"
 is_primary = false
-description = "The DeepSource PHP analyzer."
-documentation_url = "https://deepsource.io/docs/analyzer/php.html"
-discuss_url = "https://discuss.deepsource.io/tag/php"
 
 # Execution details
 command = "python3 /app/analyze.py"
