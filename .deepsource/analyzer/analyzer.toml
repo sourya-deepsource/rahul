@@ -1,5 +1,4 @@
 name = "Rahulizer"
-shortcode="github.com/sourya-deepsource/rahul"
 description = "Spell Rahul right!"
 category = "lang"
 analyzer_type = "community"
