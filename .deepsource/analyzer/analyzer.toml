@@ -1,3 +1,22 @@
 name = "Rahulizer"
+shortcode="github.com/sourya-deepsource/rahul"
 description = "Spell Rahul right!"
+category = "lang"
+analyzer_type = "community"
+status = "active"
+is_primary = false
+description = "The DeepSource PHP analyzer."
+documentation_url = "https://deepsource.io/docs/analyzer/php.html"
+discuss_url = "https://discuss.deepsource.io/tag/php"
+
+# Execution details
 command = "python3 /app/analyze.py"
+autofixer_command = ""
+trigger = "code"
+processors = ["source_code_load", "skip_cq"]
+
+# Resource details
+min_cpu_limit = 800
+max_cpu_limit = 1500
+min_memory_limit = 800
+max_memory_limit = 2000
