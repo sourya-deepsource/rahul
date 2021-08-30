@@ -1,12 +1,12 @@
 name = "Rahulizer"
 description = "Spell Rahul right!"
 category = "lang"
-analyzer_type = "community"
+visibility = "public"
 status = "active"
 is_primary = false
 
 # Execution details
-command = "python3 /app/analyze.py"
+analysis_command = "python3 /app/analyze.py"
 autofixer_command = ""
 trigger = "code"
 processors = ["source_code_load", "skip_cq"]
