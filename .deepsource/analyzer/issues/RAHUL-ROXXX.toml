@@ -5,3 +5,4 @@ description = """
 Rahul is an amazing person. Spell his name RIGHT!
 """
 recommended = true
+weight = 80
