@@ -1,6 +1,6 @@
 name = "Rahulizer"
 description = "Spell Rahul right!"
-category = "lang"
+category = "language"
 visibility = "public"
 status = "active"
 is_primary = false
